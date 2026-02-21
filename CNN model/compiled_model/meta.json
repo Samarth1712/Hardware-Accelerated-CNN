@@ -1,0 +1,12 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "yolov5_zcu104.xmodel",
+    "kernel": [
+        "subgraph_DetectionModel__DetectionModel_C3_model__C3_13__Conv_cv1__Conv2d_conv__ret_99",
+        "subgraph_DetectionModel__13399",
+        "subgraph_DetectionModel__13403",
+        "subgraph_DetectionModel__13411",
+        "subgraph_DetectionModel__13419"
+    ],
+    "target": "DPUCZDX8G_ISA1_B4096"
+}
